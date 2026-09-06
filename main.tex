@@ -56,18 +56,48 @@
 
 
 
-\section{Code Repositories}
+\section{Introduction \& Code Repositories}
 
-The spline generation workflow is currently split across two local repositories:
+To produce WireMod splines for SBND, we split the task into two main parts:
+
+\begin{enumerate}
+    \item Generate multi-dimensional histograms with spatial, angular, and hit response variables that have calibration corrections applied. 
+    \begin{itemize}
+        \item We have an interface for calibration NTuples as well as flat CAF trees. 
+        \item The calibration NTuples allow us to generate splines from through-going muons. These provide a stable dE/dx from the MIP-like cosmic off-beam samples.
+        \item The flat CAF trees allow us to select protons as a way to probe dE/dx with Wiremod. This population will allow us to study the performance of the WireMod splines extracted from MIP muons when applied to highly ionizing tracks. Additionally, we may be able to add dE/dx as a WireMod dimension. 
+        \item The code repository, \texttt{SBNDWireModHists}, can be found here: 
+        \begin{itemize}
+            \item URL: \href{https://github.com/aantonakis/SBNDWireModHists}{https://github.com/aantonakis/SBNDWireModHists}
+        \end{itemize}
+    \end{itemize}
+    
+    \item Extract the data/mc MPV ratios for the hit response variables as a function of the spatial and angular dimensions. We partition the spatial and angular components of the multi-dimensional histograms from step 1 to achieve sufficient track statistics for the MPV extraction. The hit response ratios as a function of the spatial and angular binning define the WireMod splines. These splines typically constitute a family of 2D ratio splines that can leverage interpolation functionaliy from packages such as ROOT.
+\end{enumerate}
+
+The spline generation workflow is currently split across two repositories:
 \begin{itemize}
     \item \texttt{SBNDWireModSplineGeneration}: Python workflow scripts, ROOT output files, CSV summaries, and diagnostic plots.
+    \begin{itemize}
+        \item URL: \href{https://github.com/aantonakis/SBNDWireModSplineGeneration}{https://github.com/aantonakis/SBNDWireModSplineGeneration}
+    \end{itemize}
     \item \texttt{WireMod-Spline-Generation-Guide}: this documentation project.
+    \begin{itemize}
+        \item URL: \href{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}
+    \end{itemize}
 \end{itemize}
 
 The current 2D workflow uses PyROOT for all ROOT I/O and histogram projections, while Matplotlib is used for diagnostic plots. The ROOT environment is loaded through the wrapper script:
 \begin{verbatim}
 ./scripts/run_with_root.sh <python script> <options>
 \end{verbatim}
+
+
+\section{WireMod Histogram Generation}
+
+
+
+
 
 \section{Simple 2D Spline Generation}
 
