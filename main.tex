@@ -58,10 +58,190 @@
 
 \section{Code Repositories}
 
+The spline generation workflow is currently split across two local repositories:
+\begin{itemize}
+    \item \texttt{SBNDWireModSplineGeneration}: Python workflow scripts, ROOT output files, CSV summaries, and diagnostic plots.
+    \item \texttt{WireMod-Spline-Generation-Guide}: this documentation project.
+\end{itemize}
 
-\section{Simple 2D spline Generation}
+The current 2D workflow uses PyROOT for all ROOT I/O and histogram projections, while Matplotlib is used for diagnostic plots. The ROOT environment is loaded through the wrapper script:
+\begin{verbatim}
+./scripts/run_with_root.sh <python script> <options>
+\end{verbatim}
 
+\section{Simple 2D Spline Generation}
 
+\subsection{Goal}
+
+The first 2D spline production tests use lower-dimensional Gen2 histograms where the first two THnSparse axes are WireMod coordinates or angles, and the third axis is the hit-level response variable. The current samples are:
+\begin{itemize}
+    \item \texttt{YZQ}: adaptive bins in $(y,z)$, hit response axis $Q$.
+    \item \texttt{YZW}: same $(y,z)$ binning as \texttt{YZQ}, hit response axis $W$.
+    \item \texttt{XTXZQ}: adaptive bins in $(x,\theta_{xw})$, hit response axis $Q$.
+    \item \texttt{XTXZW}: same $(x,\theta_{xw})$ binning as \texttt{XTXZQ}, hit response axis $W$.
+\end{itemize}
+
+For each plane, the workflow constructs adaptive 2D regions from the data track-count histogram, extracts data and simulation hit-response distributions in each region, estimates the most probable hit-response scale with an iterative truncated mean, and stores the ratio
+\begin{equation}
+    R_{\mathrm{WireMod}}(a,b) =
+    \frac{\mathrm{MPV}_{\mathrm{data}}(a,b)}
+         {\mathrm{MPV}_{\mathrm{MC}}(a,b)}
+\end{equation}
+as a \texttt{TGraph2DErrors}. Here $(a,b)$ denotes the two WireMod dimensions used for the file, for example $(y,z)$ or $(x,\theta_{xw})$.
+
+\subsection{Input Files}
+
+The Gen2 2D input files are stored in:
+\begin{verbatim}
+/Users/alexanderantonakis/Documents/Codex/2026-06-08/Gen2_2D
+\end{verbatim}
+Each file contains one \texttt{hTrackN} and one \texttt{hHitN} object for each of the six wire planes. The \texttt{hTrackN} histograms define the binning statistics. The corresponding \texttt{hHitN} histograms provide the hit-response distributions used to extract the data/MC ratio.
+
+\subsection{Adaptive Binning}
+
+The adaptive binning is produced with \texttt{scripts/make\_adaptive\_binning\_2d.py}. The default target is currently $5\times10^{5}$ tracks per 2D region. The script projects the 3D \texttt{hTrackN} sparse onto axes 0 and 1, converts the projection into a NumPy count matrix, and recursively partitions this plane.
+
+The recursive splitting rule is:
+\begin{enumerate}
+    \item Start from the full active 2D plane.
+    \item Try a quadrant split. If all four quadrants exceed the target count threshold, keep splitting each quadrant.
+    \item If the quadrant split is not allowed by the threshold, try a binary split along the selected fallback axis.
+    \item Keep the split only if both children exceed the threshold.
+    \item Otherwise, keep the current region as a terminal adaptive bin.
+\end{enumerate}
+
+For \texttt{XTXZ} files, one side of the detector is mostly empty for each plane. The workflow therefore applies an active-$x$ selection before adaptive splitting. The default \texttt{auto} behavior uses $x<0$ for planes 0--2 and $x>0$ for planes 3--5. This prevents the empty side of the histogram from forcing the algorithm into one overly large bin.
+
+A typical command is:
+\begin{verbatim}
+./scripts/run_with_root.sh scripts/make_adaptive_binning_2d.py \
+  --input ../Gen2_2D/Wire_Gen2_DATA_YZQ_26Aug2026_Full.root \
+  --hist hTrack0 \
+  --target 500000 \
+  --max-plots 1
+\end{verbatim}
+
+For the width response files, the same binning is reused from the corresponding charge file: \texttt{YZQ} binning is used for \texttt{YZW}, and \texttt{XTXZQ} binning is used for \texttt{XTXZW}.
+
+\begin{table}[H]
+\centering
+\caption{Adaptive 2D region counts from the current Gen2 data track histograms. The \texttt{XTXZQ} counts include the active-$x$ side selection.}
+\label{tab:adaptive_2d_region_counts}
+\begin{tabular}{ccc}
+\toprule
+Plane & \texttt{YZQ} regions & \texttt{XTXZQ} regions \\
+\midrule
+0 & 2145 & 826 \\
+1 & 2129 & 796 \\
+2 & 1056 & 913 \\
+3 & 2193 & 852 \\
+4 & 2140 & 862 \\
+5 & 1116 & 912 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ratio Extraction}
+
+The ratio extraction is performed with \texttt{scripts/make\_2d\_ratio\_splines.py}. For each adaptive region, the script applies the region as an axis-0/axis-1 selection on the data and MC \texttt{hHitN} sparse histograms, projects the response axis, and computes the iterative truncated mean for the data and MC projected distributions.
+
+The truncated-mean settings currently match the earlier 3D spline workflow:
+\begin{itemize}
+    \item lower truncation: $-2.0$ RMS from the current mean,
+    \item upper truncation: $+1.75$ RMS from the current mean,
+    \item convergence tolerance: $10^{-4}$,
+    \item maximum iterations: 100.
+\end{itemize}
+
+The central spline point is placed at the geometric center of each adaptive region. By default, the script also duplicates points at boundary edges and corners. These edge-augmented points help constrain interpolation near the boundary of the valid 2D phase space. The output ROOT file contains:
+\begin{itemize}
+    \item \texttt{data\_mpv\_N}: data truncated-mean MPV graph,
+    \item \texttt{mc\_mpv\_N}: MC truncated-mean MPV graph,
+    \item \texttt{splines\_N}: data/MC ratio graph.
+\end{itemize}
+
+A typical ratio command is:
+\begin{verbatim}
+./scripts/run_with_root.sh scripts/make_2d_ratio_splines.py \
+  --data ../Gen2_2D/Wire_Gen2_DATA_YZQ_26Aug2026_Full.root \
+  --mc ../Gen2_2D/Wire_Gen2_MC_YZQ_26Aug2026_Full.root \
+  --hit-hist hHit0 \
+  --idx 0 \
+  --binning-label YZQ_26Aug2026
+\end{verbatim}
+
+For \texttt{YZW}, the output label and binning label are different:
+\begin{verbatim}
+./scripts/run_with_root.sh scripts/make_2d_ratio_splines.py \
+  --data .../Wire_Gen2_DATA_YZW_26Aug2026_Full.root \
+  --mc .../Wire_Gen2_MC_YZW_26Aug2026_Full.root \
+  --hit-hist hHit0 \
+  --idx 0 \
+  --output-label YZW_26Aug2026 \
+  --binning-label YZQ_26Aug2026
+\end{verbatim}
+
+\subsection{Current Outputs}
+
+The current output files are written under:
+\begin{verbatim}
+plots/adaptive_2d
+plots/ratio_splines_2d
+\end{verbatim}
+in the \texttt{SBNDWireModSplineGeneration} repository. CSV files store the adaptive regions and MPV ratio summaries, while ROOT files store the final graphs used downstream by WireMod.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Current 2D ratio spline point counts. Each entry gives central adaptive-region fits followed by the number of graph points after edge augmentation.}
+\label{tab:ratio_2d_point_counts}
+\begin{tabular}{ccccc}
+\toprule
+Plane & \texttt{YZQ} & \texttt{YZW} & \texttt{XTXZQ} & \texttt{XTXZW} \\
+\midrule
+0 & 2145 / 2350 & 2145 / 2350 & 826 / 897 & 826 / 897 \\
+1 & 2129 / 2336 & 2129 / 2336 & 796 / 864 & 796 / 864 \\
+2 & 1056 / 1209 & 1056 / 1209 & 913 / 996 & 913 / 996 \\
+3 & 2193 / 2404 & 2193 / 2404 & 852 / 920 & 852 / 920 \\
+4 & 2140 / 2346 & 2140 / 2346 & 862 / 930 & 862 / 930 \\
+5 & 1116 / 1277 & 1116 / 1277 & 912 / 990 & 912 / 990 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\Cref{fig:wiremod_2d_adaptive_examples,fig:wiremod_2d_ratio_examples} show representative outputs for plane 0. The full plane-by-plane diagnostic set is included in \Cref{sec:appendix_gen2_2d}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png}
+    \caption{\texttt{YZQ} adaptive regions.}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png}
+    \caption{\texttt{XTXZQ} adaptive regions.}
+\end{subfigure}
+\caption{Example adaptive 2D binnings for plane 0. The \texttt{XTXZQ} binning uses the active $x<0$ side for plane 0.}
+\label{fig:wiremod_2d_adaptive_examples}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png}
+    \caption{\texttt{YZQ} ratio map.}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png}
+    \caption{\texttt{XTXZQ} ratio map.}
+\end{subfigure}
+\caption{Example data/MC truncated-mean MPV ratio maps for plane 0.}
+\label{fig:wiremod_2d_ratio_examples}
+\end{figure}
 
 
 
@@ -75,6 +255,75 @@
 
 \section{\label{sec:appendix_gen2_2d} 2D Splines in Gen2}
 
+\subsection{Adaptive Binning Diagnostics}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{YZQ} adaptive 2D regions for all planes.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_adaptive_2d_regions.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{XTXZQ} adaptive 2D regions for all planes.}
+\end{figure}
+
+\subsection{Ratio Map Diagnostics}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit3_ratio_map.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit4_ratio_map.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{YZQ} data/MC MPV ratio maps for all planes.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit2_ratio_map.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit3_ratio_map.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{YZW} data/MC MPV ratio maps for all planes.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_map.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_map.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit3_ratio_map.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit4_ratio_map.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_ratio_map.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{XTXZQ} data/MC MPV ratio maps for all planes.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_map.png}\caption{Plane 0}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_map.png}\caption{Plane 1}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_map.png}\caption{Plane 2}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit3_ratio_map.png}\caption{Plane 3}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit4_ratio_map.png}\caption{Plane 4}\end{subfigure}
+\begin{subfigure}{0.31\textwidth}\centering\includegraphics[width=\textwidth]{Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_map.png}\caption{Plane 5}\end{subfigure}
+\caption{\texttt{XTXZW} data/MC MPV ratio maps for all planes.}
+\end{figure}
 
 
 \newpage
