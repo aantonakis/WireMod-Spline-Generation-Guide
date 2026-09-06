@@ -393,6 +393,44 @@ The current angular binning uses folded absolute angles, motivated by the approx
 \end{equation}
 The binning algorithm first separates the angular space into low-low, low-high, high-low, and high-high regions, with the high-angle boundary at approximately $60^\circ$. Adaptive splitting is then run within these regions so that high-angle regions, where stronger gradients are expected, are not swallowed by very large low-angle bins. The current target used for this angular binning is $10^{5}$ tracks per angular region.
 
+\Cref{fig:folded_angular_bins_all_planes} shows the folded angular distributions and selected WireMod angular regions for each of the six wire planes.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack0_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 0}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack1_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 1}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack2_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 2}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack3_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 3}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack4_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 4}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModAngles/hTrack5_angles_2d_counts_folded_abs_priority60_wiremod_bins.png}
+    \caption{Plane 5}
+\end{subfigure}
+\caption{Folded 2D angular track distributions and selected WireMod angular regions. The angular plane is folded into $(|\theta_{xw}|,|\theta_{yz}|)$ and the adaptive binning prioritizes the high-angle regions above approximately $60^\circ$.}
+\label{fig:folded_angular_bins_all_planes}
+\end{figure}
+
 \subsection{Adaptive YZ Binning in X Slices}
 
 The x/YZ adaptive binning is produced with:
