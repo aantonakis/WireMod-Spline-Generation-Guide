@@ -95,6 +95,101 @@ The current 2D workflow uses PyROOT for all ROOT I/O and histogram projections, 
 
 \section{WireMod Histogram Generation}
 
+\subsection{Purpose}
+
+The \texttt{SBNDWireModHists} repository produces the ROOT \texttt{THnSparseD} inputs used by the spline generation workflow. This step reads the selected data or simulation samples, applies the requested calibration corrections and event/track selections, and fills one track-count histogram and one hit-response histogram for each requested wire plane or angular region.
+
+The central Gen2 macro is:
+\begin{verbatim}
+macros/multi_dim_tracks_gen2_grid.C
+\end{verbatim}
+For the angle-bin workflow, the corresponding macro is:
+\begin{verbatim}
+macros/multi_dim_tracks_gen2_anglebin_grid.C
+\end{verbatim}
+
+The standard histogram objects are named \texttt{hTrackN} and \texttt{hHitN}, where $N$ is the wire-plane index. The \texttt{hTrackN} histograms are used to count tracks and construct adaptive regions. The \texttt{hHitN} histograms store the hit-response axis, for example charge, dQ/dx, or width, together with the selected WireMod coordinates.
+
+\subsection{Configuration Files}
+
+Histogram axes and selections are controlled by text configuration files under:
+\begin{verbatim}
+Configs/Gen2
+\end{verbatim}
+The configuration file defines the global binning with \texttt{Nbins}, \texttt{Xmin}, and \texttt{Xmax}, while the \texttt{dim} field selects which axes are actually stored in the output sparse histograms. For the current angle-bin XYZ workflow, the template configs store:
+\begin{itemize}
+    \item \texttt{dim: 0 1 2 6} for $(x,y,z,Q)$,
+    \item \texttt{dim: 0 1 2 5} for $(x,y,z,dQ/dx)$,
+    \item \texttt{dim: 0 1 2 7} for $(x,y,z,W)$.
+\end{itemize}
+
+The angular coordinates are not stored as axes in these reduced output histograms. Instead, they are used as selections. Each generated angle-bin config contains \texttt{PlaneIndex}, \texttt{UseAbsAngles}, \texttt{ThetaXWMin}, \texttt{ThetaXWMax}, \texttt{ThetaYZMin}, \texttt{ThetaYZMax}, \texttt{AngleBinRegion}, and \texttt{AngleBinTracks}. These fields select a single folded angular region for a single wire plane.
+
+The current templates are:
+\begin{verbatim}
+Configs/Gen2/config_xyz_spline_anglebin_template_q.cfg
+Configs/Gen2/config_xyz_spline_anglebin_template_dq.cfg
+Configs/Gen2/config_xyz_spline_anglebin_template_w.cfg
+\end{verbatim}
+
+\subsection{Generating Angle-Bin Configs}
+
+The angle-bin configs are generated from folded 2D angular-bin CSV files produced by the angular binning workflow. The helper script is:
+\begin{verbatim}
+scripts/generate_gen2_anglebin_configs.py
+\end{verbatim}
+It reads the per-plane angular bins, chooses the appropriate observable template, and writes one config per angular region:
+\begin{verbatim}
+python scripts/generate_gen2_anglebin_configs.py --dim q
+python scripts/generate_gen2_anglebin_configs.py --dim dq
+python scripts/generate_gen2_anglebin_configs.py --dim w
+\end{verbatim}
+
+The generated configs are stored in observable-specific directories:
+\begin{verbatim}
+Configs/Gen2/AngleBins_q/PlaneN
+Configs/Gen2/AngleBins_dq/PlaneN
+Configs/Gen2/AngleBins_w/PlaneN
+\end{verbatim}
+The current folded angular binning gives 27 regions for planes 0, 2, 4, and 5, and 26 regions for planes 1 and 3. The same angular-region definitions are used for the \texttt{q}, \texttt{dq}, and \texttt{w} observable configs.
+
+\subsection{Submitting Grid Jobs}
+
+The plane-level grid wrapper submits the Gen2 angle-bin macro once for each config in a selected plane and observable directory:
+\begin{verbatim}
+grid/submit_multi_dim_tracks_gen2_anglebin_plane.py
+\end{verbatim}
+It loops over the relevant config files and forwards the common grid options to:
+\begin{verbatim}
+grid/submit_multi_dim_tracks_gen2_anglebin.py
+\end{verbatim}
+
+A representative submission command is:
+\begin{verbatim}
+python grid/submit_multi_dim_tracks_gen2_anglebin_plane.py \
+  --plane 0 \
+  --observable q \
+  --sample data \
+  --tag gen2 \
+  -l input_file_list.txt \
+  -nfile 100 \
+  -ngrid 20
+\end{verbatim}
+For each config, the wrapper builds an output prefix of the form:
+\begin{verbatim}
+gen2_<data-or-mc>_<config-name-without-.cfg>
+\end{verbatim}
+For example, the first plane-0 charge angular region is labeled:
+\begin{verbatim}
+gen2_data_config_xyz_spline_anglebin_q_plane0_region001
+\end{verbatim}
+
+The resulting ROOT files are then moved into the spline-generation repository under separate data and MC directories, for example:
+\begin{verbatim}
+AngleData/data/plane0
+AngleData/mc/plane0
+\end{verbatim}
+
 
 
 
@@ -271,6 +366,138 @@ Plane & \texttt{YZQ} & \texttt{YZW} & \texttt{XTXZQ} & \texttt{XTXZW} \\
 \end{subfigure}
 \caption{Example data/MC truncated-mean MPV ratio maps for plane 0.}
 \label{fig:wiremod_2d_ratio_examples}
+\end{figure}
+
+\section{Higher Dimensional Angle-Binned Spline Generation}
+
+\subsection{Workflow}
+
+The higher-dimensional workflow keeps the angular dependence by first partitioning the two-dimensional angular plane, then producing separate $(x,y,z,\mathrm{response})$ histograms for each angular region. Within a fixed plane and angular region, the workflow proceeds as:
+\begin{enumerate}
+    \item Select a folded 2D angular bin in $(|\theta_{xw}|,|\theta_{yz}|)$.
+    \item Generate data and MC \texttt{hTrackN}/\texttt{hHitN} histograms in \texttt{SBNDWireModHists} using the matching angle-bin config.
+    \item Use the data \texttt{hTrackN} histogram to define adaptive YZ regions independently in each x-bin.
+    \item In each x-bin and YZ region, project the data and MC \texttt{hHitN} histograms onto the response axis.
+    \item Extract the data and MC truncated-mean MPVs and store the data/MC ratio as a 2D spline in the YZ plane.
+\end{enumerate}
+
+The final product for one plane and one angular bin is therefore a family of 2D YZ ratio splines, one spline for each populated x-slice. The full WireMod correction can then be viewed as a set of 2D YZ surfaces indexed by plane, angular bin, x-bin, and response observable.
+
+\subsection{Angular Binning}
+
+The current angular binning uses folded absolute angles, motivated by the approximate symmetry of the hit-response behavior about $\theta=0$ for both angular variables. The folded angular plane covers:
+\begin{equation}
+    0 \leq |\theta_{xw}| \leq 90^\circ,
+    \qquad
+    0 \leq |\theta_{yz}| \leq 90^\circ.
+\end{equation}
+The binning algorithm first separates the angular space into low-low, low-high, high-low, and high-high regions, with the high-angle boundary at approximately $60^\circ$. Adaptive splitting is then run within these regions so that high-angle regions, where stronger gradients are expected, are not swallowed by very large low-angle bins. The current target used for this angular binning is $10^{5}$ tracks per angular region.
+
+\subsection{Adaptive YZ Binning in X Slices}
+
+The x/YZ adaptive binning is produced with:
+\begin{verbatim}
+scripts/make_adaptive_binning_xyz.py
+\end{verbatim}
+This script expects the reduced four-dimensional sparse output from \texttt{SBNDWireModHists}, with axes corresponding to $(x,y,z,\mathrm{response})$. For each physical x-bin, it projects the data \texttt{hTrackN} histogram onto the YZ plane. If the x-bin has enough tracks, the YZ plane is adaptively split with the same quadrant-first logic used by the simple 2D workflow.
+
+A representative command is:
+\begin{verbatim}
+DATA=AngleData/data/plane0
+./scripts/run_with_root.sh scripts/make_adaptive_binning_xyz.py \
+  --input $DATA/gen2_data_config_xyz_spline_anglebin_q_plane0_region001_full.root \
+  --hist hTrack0 \
+  --target 100000 \
+  --max-plots 5
+\end{verbatim}
+
+The output label is inferred from names such as \texttt{anglebin\_q\_plane0\_region001}, so each angular-region binning is kept separate. The output files are written to:
+\begin{verbatim}
+plots/adaptive_xyz
+\end{verbatim}
+
+\subsection{XYZ Ratio Spline Extraction}
+
+The higher-dimensional ratio extraction is performed with:
+\begin{verbatim}
+scripts/make_xyz_ratio_splines.py
+\end{verbatim}
+For each x-bin and adaptive YZ region, the script projects the data and MC \texttt{hHitN} histograms onto the response axis and applies the same iterative truncated-mean MPV extraction used in the simple 2D workflow. The output ROOT file contains one set of graphs per x-bin:
+\begin{itemize}
+    \item \texttt{data\_mpv\_N\_X}: data MPV graph in the YZ plane,
+    \item \texttt{mc\_mpv\_N\_X}: MC MPV graph in the YZ plane,
+    \item \texttt{splines\_N\_X}: data/MC ratio graph in the YZ plane.
+\end{itemize}
+Here $N$ is the plane index and $X$ is the x-bin index.
+
+A representative command for charge is:
+\begin{verbatim}
+DATA=AngleData/data/plane0
+MC=AngleData/mc/plane0
+./scripts/run_with_root.sh scripts/make_xyz_ratio_splines.py \
+  --data $DATA/gen2_data_config_xyz_spline_anglebin_q_plane0_region001_full.root \
+  --mc $MC/gen2_mc_config_xyz_spline_anglebin_q_plane0_region001_full.root \
+  --hit-hist hHit0 \
+  --idx 0
+\end{verbatim}
+
+For \texttt{dq} or \texttt{w}, the same charge-derived adaptive YZ binning can be reused with:
+\begin{verbatim}
+--binning-observable q
+\end{verbatim}
+This keeps the spatial binning fixed across response observables for the same plane and angular region.
+
+\subsection{Current Higher-Dimensional Tests}
+
+The current end-to-end higher-dimensional test has been run for plane 0, angular region 001, and the \texttt{q}, \texttt{dq}, and \texttt{w} observables. Diagnostic outputs include adaptive YZ region plots for individual x-bins, YZ ratio maps for each x-bin, and optional per-region hit-response plots with data and MC MPV markers.
+
+\Cref{fig:wiremod_xyz_adaptive_example,fig:wiremod_xyz_ratio_example} show representative plane-0, region-001 outputs. These are useful debugging plots for checking that the YZ binning follows the data track density and that the extracted ratios vary smoothly within each x-slice.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.24\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin001_adaptive_yz.png}
+    \caption{x-bin 1}
+\end{subfigure}
+\begin{subfigure}{0.24\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin002_adaptive_yz.png}
+    \caption{x-bin 2}
+\end{subfigure}
+\begin{subfigure}{0.24\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin003_adaptive_yz.png}
+    \caption{x-bin 3}
+\end{subfigure}
+\begin{subfigure}{0.24\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin004_adaptive_yz.png}
+    \caption{x-bin 4}
+\end{subfigure}
+\caption{Example adaptive YZ regions for plane 0, angular region 001, in the first four x-bins.}
+\label{fig:wiremod_xyz_adaptive_example}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.png}
+    \caption{$Q$, x-bin 1}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/ratios/dq/hHit0_xbin001_ratio_map.png}
+    \caption{dQ/dx, x-bin 1}
+\end{subfigure}
+\begin{subfigure}{0.31\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/WireModXYZ/ratios/w/hHit0_xbin001_ratio_map.png}
+    \caption{Width, x-bin 1}
+\end{subfigure}
+\caption{Example YZ data/MC MPV ratio maps for plane 0, angular region 001, and three response observables.}
+\label{fig:wiremod_xyz_ratio_example}
 \end{figure}
 
 
