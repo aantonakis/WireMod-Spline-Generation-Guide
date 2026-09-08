@@ -402,6 +402,22 @@ These summary plots are useful as a common-scale overview of the current 2D resu
 \label{fig:wiremod_2d_summary_xtxzw}
 \end{figure}
 
+For the $x$ versus $\theta_{xw}$ splines, an alternate symmetric-angle binning was also produced. In this version, the adaptive binning is learned in the $\theta_{xw}>0$ half-plane and then mirrored to $\theta_{xw}<0$. This preserves a symmetric angular segmentation while still allowing the positive-angle side to follow the observed track density.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d_ratio_spline_summary.png}
+\caption{All-plane summary of the symmetric-angle \texttt{XTXZQ} data/MC MPV ratio splines. The adaptive binning is learned for $\theta_{xw}>0$ and mirrored to $\theta_{xw}<0$. The color scale is fixed from 0.85 to 1.15.}
+\label{fig:wiremod_2d_summary_xtxzq_symmetric}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d_ratio_spline_summary.png}
+\caption{All-plane summary of the symmetric-angle \texttt{XTXZW} data/MC MPV ratio splines. The adaptive binning is learned for $\theta_{xw}>0$ and mirrored to $\theta_{xw}<0$. The color scale is fixed from 0.85 to 1.15.}
+\label{fig:wiremod_2d_summary_xtxzw_symmetric}
+\end{figure}
+
 \section{Higher Dimensional Angle-Binned Spline Generation}
 
 \subsection{Workflow}
