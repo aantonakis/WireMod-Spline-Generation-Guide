@@ -153,6 +153,29 @@ Configs/Gen2/AngleBins_w/PlaneN
 \end{verbatim}
 The current folded angular binning gives 27 regions for planes 0, 2, 4, and 5, and 26 regions for planes 1 and 3. The same angular-region definitions are used for the \texttt{q}, \texttt{dq}, and \texttt{w} observable configs.
 
+\subsubsection{Switching Data and MC Configs}
+
+The generated angle-bin configs contain an \texttt{isData} field that controls whether the histogram-generation macro treats the input as data or simulation. After generating the configs, this field can be changed in bulk with:
+\begin{verbatim}
+scripts/set_config_isdata.py
+\end{verbatim}
+
+For example, to set all \texttt{q} angle-bin configs to simulation mode:
+\begin{verbatim}
+python scripts/set_config_isdata.py Configs/Gen2/AngleBins_q --value false
+\end{verbatim}
+and to set them back to data mode:
+\begin{verbatim}
+python scripts/set_config_isdata.py Configs/Gen2/AngleBins_q --value true
+\end{verbatim}
+
+The same command can be applied to the other observable-specific config directories, such as \texttt{Configs/Gen2/AngleBins\_dq} or \texttt{Configs/Gen2/AngleBins\_w}. To update every angle-bin config directory under \texttt{Configs/Gen2} at once, use:
+\begin{verbatim}
+python scripts/set_config_isdata.py --all-anglebins --value false
+python scripts/set_config_isdata.py --all-anglebins --value true
+\end{verbatim}
+The \texttt{--dry-run} option can be added to either command to print the files that would be changed without editing them.
+
 \subsection{Submitting Grid Jobs}
 
 The plane-level grid wrapper submits the Gen2 angle-bin macro once for each config in a selected plane and observable directory:
