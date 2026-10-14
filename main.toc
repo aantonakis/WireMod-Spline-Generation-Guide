@@ -1,0 +1,31 @@
+\acswitchoff 
+\contentsline {section}{\numberline {1}Introduction \& Code Repositories}{2}{section.1}%
+\contentsline {section}{\numberline {2}WireMod Histogram Generation}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Purpose}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Configuration Files}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Generating Angle-Bin Configs}{3}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Switching Data and MC Configs}{3}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Submitting Grid Jobs}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Simple 2D Spline Generation}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Goal}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Input Files}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Adaptive Binning}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ratio Extraction}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Current Outputs}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Summary Plots}{7}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Higher Dimensional Angle-Binned Spline Generation}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Workflow}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Angular Binning}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Adaptive YZ Binning in X Slices}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}XYZ Ratio Spline Extraction}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Current Higher-Dimensional Tests}{12}{subsection.4.5}%
+\contentsline {section}{Appendix \numberline {A} 2D Splines in Gen2}{14}{appendix.1.A}%
+\contentsline {subsection}{\numberline {A.1}Adaptive Binning Diagnostics}{14}{subsection.1.A.1}%
+\contentsline {subsection}{\numberline {A.2}Ratio Map Diagnostics}{15}{subsection.1.A.2}%
+\contentsline {section}{Appendix \numberline {B}Higher-Dimensional Angle-Binned Ratio Splines}{17}{appendix.1.B}%
+\contentsline {subsection}{\numberline {B.1}Plane 0}{18}{subsection.1.B.1}%
+\contentsline {subsubsection}{\numberline {B.1.1}Charge ($Q$)}{18}{subsubsection.1.B.1.1}%
+\contentsline {subsubsection}{\numberline {B.1.2}dQ/dx}{45}{subsubsection.1.B.1.2}%
+\contentsline {subsubsection}{\numberline {B.1.3}Ratio of $Q$ and dQ/dx Splines}{72}{subsubsection.1.B.1.3}%
+\contentsline {subsection}{\numberline {B.2}Plane 2}{99}{subsection.1.B.2}%
+\contentsline {subsubsection}{\numberline {B.2.1}Charge ($Q$)}{99}{subsubsection.1.B.2.1}%

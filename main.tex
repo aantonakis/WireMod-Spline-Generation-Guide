@@ -560,7 +560,7 @@ This keeps the spatial binning fixed across response observables for the same pl
 
 \subsection{Current Higher-Dimensional Tests}
 
-The current end-to-end higher-dimensional test has been run for plane 0, angular region 001, and the \texttt{q}, \texttt{dq}, and \texttt{w} observables. Diagnostic outputs include adaptive YZ region plots for individual x-bins, YZ ratio maps for each x-bin, and optional per-region hit-response plots with data and MC MPV markers.
+The initial end-to-end higher-dimensional test was run for plane 0, angular region 001, and the \texttt{q}, \texttt{dq}, and \texttt{w} observables. The charge workflow has since been completed for all 27 angular regions of plane 0, yielding 10,719 fitted center regions without skipped regions. Plane 2 charge extraction has also been completed for all 27 angular regions using new plane-specific binning, yielding 5,742 fitted center regions without skipped regions. The full x-slice summary figures are collected in \Cref{sec:appendix_xyz_splines}. Diagnostic outputs include adaptive YZ region plots for individual x-bins, YZ ratio maps for each x-bin, and optional per-region hit-response plots with data and MC MPV markers.
 
 \Cref{fig:wiremod_xyz_adaptive_example,fig:wiremod_xyz_ratio_example} show representative plane-0, region-001 outputs. These are useful debugging plots for checking that the YZ binning follows the data track density and that the extracted ratios vary smoothly within each x-slice.
 
@@ -701,6 +701,44 @@ The current end-to-end higher-dimensional test has been run for plane 0, angular
 
 
 
+
+\section{Higher-Dimensional Angle-Binned Ratio Splines}
+\label{sec:appendix_xyz_splines}
+
+This appendix collects the higher-dimensional ratio spline outputs, organized by wire plane. Each angular region has one summary figure containing the YZ ratio surface for every populated x-bin, with the x-bin index and spatial interval shown above each panel. The current results cover all 27 folded two-dimensional angular regions for charge ($Q$) and dQ/dx in plane 0, and charge in plane 2. Plane 2 uses independently generated adaptive binning from its own data histograms. Plane 1 results will be added when available. The dQ/dx figures follow the charge figures and reuse the same charge-derived adaptive binning. A third set of figures shows $R_Q/R_{dQ/dx}$, where each $R$ is the corresponding data/MC response correction. The two spline surfaces are linearly interpolated separately on the same YZ grid, then divided at each grid location. Graph coordinates and x-bin sets must match. This compares the corrections rather than the raw charge and dQ/dx responses.
+
+The visualization follows \texttt{scripts/plot\_2d\_spline\_summaries\_linear.py}: duplicate graph coordinates are averaged and the edge-augmented ratio points are linearly interpolated on a $40\times40$ grid. Z is horizontal and Y is vertical. All panels use the same diverging color scale from 0.85 to 1.15; values outside this interval saturate at the color-scale endpoints. Interpolation is restricted to the convex hull of the input graph points.
+
+The summary plots and plane subsections are generated with:
+\begin{verbatim}
+python3 scripts/plot_xyz_spline_summaries_linear.py \
+  --observable q --planes 0 \
+  --outdir ../WireMod-Spline-Generation-Guide/Figures/WireModXYZ/summary \
+  --appendix-output ../WireMod-Spline-Generation-Guide/xyz_spline_appendix.tex
+\end{verbatim}
+Run this command from \texttt{SBNDWireModSplineGeneration} in a PyROOT-enabled environment. Additional planes are included automatically when their angle-bin spline outputs and matching binning CSVs are available. To generate the dQ/dx figures after charge within the existing Plane 0 subsection, use:
+\begin{verbatim}
+python3 scripts/plot_xyz_spline_summaries_linear.py \
+  --observable dq --binning-observable q \
+  --planes 0 --omit-plane-heading \
+  --outdir ../WireMod-Spline-Generation-Guide/Figures/WireModXYZ/summary \
+  --appendix-output ../WireMod-Spline-Generation-Guide/xyz_spline_appendix_dq.tex
+\end{verbatim}
+
+Plane 2 charge summaries use the same plotting script with \texttt{--observable q --planes 2} and a separate appendix fragment, \texttt{xyz\_spline\_appendix\_plane2\_q.tex}, included after the Plane 0 results.
+
+The Q-to-dQ/dx comparison figures use the same script and figure directory,
+with these options:
+\begin{verbatim}
+--observable q --divide-by dq --planes 0 --omit-plane-heading
+--appendix-output \
+  ../WireMod-Spline-Generation-Guide/xyz_spline_appendix_q_over_dq.tex
+\end{verbatim}
+
+\input{xyz_spline_appendix.tex}
+\input{xyz_spline_appendix_dq.tex}
+\input{xyz_spline_appendix_q_over_dq.tex}
+\input{xyz_spline_appendix_plane2_q.tex}
 
 \end{appendices}
 

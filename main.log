@@ -1,0 +1,3335 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  14 OCT 2026 16:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count283
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count288
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen152
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip51
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count295
+\l__siunitx_number_exponent_fixed_int=\count296
+\l__siunitx_number_min_decimal_int=\count297
+\l__siunitx_number_min_integer_int=\count298
+\l__siunitx_number_round_precision_int=\count299
+\l__siunitx_number_lower_threshold_int=\count300
+\l__siunitx_number_upper_threshold_int=\count301
+\l__siunitx_number_group_first_int=\count302
+\l__siunitx_number_group_size_int=\count303
+\l__siunitx_number_group_minimum_int=\count304
+\l__siunitx_angle_tmp_dim=\dimen155
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_compound_count_int=\count305
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen156
+))
+\l__siunitx_table_tmp_box=\box55
+\l__siunitx_table_tmp_dim=\dimen157
+\l__siunitx_table_column_width_dim=\dimen158
+\l__siunitx_table_integer_box=\box56
+\l__siunitx_table_decimal_box=\box57
+\l__siunitx_table_uncert_box=\box58
+\l__siunitx_table_before_box=\box59
+\l__siunitx_table_after_box=\box60
+\l__siunitx_table_before_dim=\dimen159
+\l__siunitx_table_carry_dim=\dimen160
+\l__siunitx_unit_tmp_int=\count306
+\l__siunitx_unit_position_int=\count307
+\l__siunitx_unit_total_int=\count308
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box61
+\extrarowheight=\dimen162
+\NC@list=\toks19
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box62
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/acro/acro.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+))
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
+\l__acro_tmpa_int=\count310
+\l__acro_tmpb_int=\count311
+\l__acro_tmpc_int=\count312
+\l__acro_tmpd_int=\count313
+Loading module `base' ...
+Loading module `interface' ...
+Loading module `aux' ...
+Loading module `properties' ...
+Loading module `acronyms' ...
+Loading module `formatting' ...
+Loading module `ppfixes' ...
+Loading module `tools' ...
+\l__acro_minimal_usage_int=\count314
+\l__acro_nest_int=\count315
+\g_acro_barrier_int=\count316
+\g_acro_barrier_total_int=\count317
+Loading module `commands' ...
+\l_acro_nest_level_int=\count318
+Loading module `templates' ...
+Loading module `list' ...
+Loading module `pages' ...
+\l__acro_pages_seq_threshold_int=\count319
+Loading module `locale' ...
+Loading module `pdfsupport' ...
+Loading module `patch' ...
+Loading module `definitions' ...
+Loading module `upgrade' ...
+)
+==> First Aid for acro.sty applied!
+(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen175
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip54
+\@affilsep=\skip55
+\c@Maxaffil=\count324
+\c@authors=\count325
+\c@affil=\count326
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen176
+\enit@toks=\toks20
+\enit@inbox=\box63
+\enit@count@id=\count327
+\enitdp@description=\count328
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@tempbox=\box64
+\MT@count=\count329
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks22
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen177
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count330
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2026/03/08 line numbers on paragraphs v5.9
+\linenopenalty=\count331
+\output=\toks23
+\linenoprevgraf=\count332
+\linenumbersep=\dimen178
+\linenumberwidth=\dimen179
+\c@linenumber=\count333
+\c@pagewiselinenumber=\count334
+\c@LN@truepage=\count335
+\c@internallinenumber=\count336
+\c@internallinenumbers=\count337
+\quotelinenumbersep=\dimen180
+\bframerule=\dimen181
+\bframesep=\dimen182
+\bframebox=\box65
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count338
+\c@@ppsavesec=\count339
+\c@@ppsaveapp=\count340
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen183
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count341
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count342
+\leftroot@=\count343
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count344
+\DOTSCASE@=\count345
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen184
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count346
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count347
+\dotsspace@=\muskip18
+\c@parentequation=\count348
+\dspbrk@lvl=\count349
+\tag@help=\toks24
+\row@=\count350
+\column@=\count351
+\maxfields@=\count352
+\andhelp@=\toks25
+\eqnshift@=\dimen185
+\alignsep@=\dimen186
+\tagshift@=\dimen187
+\tagwidth@=\dimen188
+\totwidth@=\dimen189
+\lineht@=\dimen190
+\@envbody=\toks26
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+\@LN@amsmath@ams@eqpen=\count353
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+==> First Aid for cleveref.sty applied!
+(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count354
+\float@exts=\toks28
+\float@box=\box68
+\@float@everytoks=\toks29
+\@floatcapt=\box69
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen191
+\captionmargin=\dimen192
+\caption@leftmargin=\dimen193
+\caption@rightmargin=\dimen194
+\caption@width=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count355
+\c@continuedfloat=\count356
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count357
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count358
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box70
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count359
+\c@pgf@countb=\count360
+\c@pgf@countc=\count361
+\c@pgf@countd=\count362
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count363
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count364
+\pgfsyssoftpath@bigbuffer@items=\count365
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count366
+\pgfmath@box=\box71
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count367
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count368
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen286
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen290
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count369
+\pgf@shadingcount=\count370
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box75
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box76
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count371
+\pgfplotmarksize=\dimen296
+)
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count372
+\tikznumberofchildren=\count373
+\tikznumberofcurrentchild=\count374
+\tikz@fig@count=\count375
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count376
+\pgfmatrixcurrentcolumn=\count377
+\pgf@matrix@numberofcolumns=\count378
+)
+\tikz@expandcount=\count379
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks42
+\pgfopts@list@add@b@toks=\toks43
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.c
+ode.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen305
+\pgfarrowlength=\dimen306
+\pgfarrowwidth=\dimen307
+\pgfarrowlinewidth=\dimen308
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen309
+\pgfdecoratedremainingdistance=\dimen310
+\pgfdecoratedinputsegmentcompleteddistance=\dimen311
+\pgfdecoratedinputsegmentremainingdistance=\dimen312
+\pgf@decorate@distancetomove=\dimen313
+\pgf@decorate@repeatstate=\count380
+\pgfdecorationsegmentamplitude=\dimen314
+\pgfdecorationsegmentlength=\dimen315
+)
+\tikz@lib@dec@box=\box81
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\tikz@lib@auto@number=\count381
+\tikz@qnode@count=\count382
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
+e.tex))) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count383
+\Gm@cntv=\count384
+\c@Gm@tempcnt=\count385
+\Gm@bindingoffset=\dimen316
+\Gm@wd@mp=\dimen317
+\Gm@odd@mp=\dimen318
+\Gm@even@mp=\dimen319
+\Gm@layoutwidth=\dimen320
+\Gm@layoutheight=\dimen321
+\Gm@layouthoffset=\dimen322
+\Gm@layoutvoffset=\dimen323
+\Gm@dimlist=\toks44
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count386
+\multirow@dima=\skip62
+\bigstrutjot=\dimen324
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count387
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count388
+\c@listtotal=\count389
+\c@listcount=\count390
+\c@liststart=\count391
+\c@liststop=\count392
+\c@citecount=\count393
+\c@citetotal=\count394
+\c@multicitecount=\count395
+\c@multicitetotal=\count396
+\c@instcount=\count397
+\c@maxnames=\count398
+\c@minnames=\count399
+\c@maxitems=\count400
+\c@minitems=\count401
+\c@citecounter=\count402
+\c@maxcitecounter=\count403
+\c@savedcitecounter=\count404
+\c@uniquelist=\count405
+\c@uniquename=\count406
+\c@refsection=\count407
+\c@refsegment=\count408
+\c@maxextratitle=\count409
+\c@maxextratitleyear=\count410
+\c@maxextraname=\count411
+\c@maxextradate=\count412
+\c@maxextraalpha=\count413
+\c@abbrvpenalty=\count414
+\c@highnamepenalty=\count415
+\c@lownamepenalty=\count416
+\c@maxparens=\count417
+\c@parenlevel=\count418
+\blx@tempcnta=\count419
+\blx@tempcntb=\count420
+\blx@tempcntc=\count421
+\c@blx@maxsection=\count422
+\blx@maxsegment@0=\count423
+\blx@notetype=\count424
+\blx@parenlevel@text=\count425
+\blx@parenlevel@foot=\count426
+\blx@sectionciteorder@0=\count427
+\blx@sectionciteorderinternal@0=\count428
+\blx@entrysetcounter=\count429
+\blx@biblioinstance=\count430
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language91
+\c@mincomprange=\count431
+\c@maxcomprange=\count432
+\c@mincompwidth=\count433
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count434
+\c@savedafterword=\count435
+\c@annotator=\count436
+\c@savedannotator=\count437
+\c@author=\count438
+\c@savedauthor=\count439
+\c@bookauthor=\count440
+\c@savedbookauthor=\count441
+\c@commentator=\count442
+\c@savedcommentator=\count443
+\c@editor=\count444
+\c@savededitor=\count445
+\c@editora=\count446
+\c@savededitora=\count447
+\c@editorb=\count448
+\c@savededitorb=\count449
+\c@editorc=\count450
+\c@savededitorc=\count451
+\c@foreword=\count452
+\c@savedforeword=\count453
+\c@holder=\count454
+\c@savedholder=\count455
+\c@introduction=\count456
+\c@savedintroduction=\count457
+\c@namea=\count458
+\c@savednamea=\count459
+\c@nameb=\count460
+\c@savednameb=\count461
+\c@namec=\count462
+\c@savednamec=\count463
+\c@translator=\count464
+\c@savedtranslator=\count465
+\c@shortauthor=\count466
+\c@savedshortauthor=\count467
+\c@shorteditor=\count468
+\c@savedshorteditor=\count469
+\c@labelname=\count470
+\c@savedlabelname=\count471
+\c@institution=\count472
+\c@savedinstitution=\count473
+\c@lista=\count474
+\c@savedlista=\count475
+\c@listb=\count476
+\c@savedlistb=\count477
+\c@listc=\count478
+\c@savedlistc=\count479
+\c@listd=\count480
+\c@savedlistd=\count481
+\c@liste=\count482
+\c@savedliste=\count483
+\c@listf=\count484
+\c@savedlistf=\count485
+\c@location=\count486
+\c@savedlocation=\count487
+\c@organization=\count488
+\c@savedorganization=\count489
+\c@origlocation=\count490
+\c@savedoriglocation=\count491
+\c@origpublisher=\count492
+\c@savedorigpublisher=\count493
+\c@publisher=\count494
+\c@savedpublisher=\count495
+\c@language=\count496
+\c@savedlanguage=\count497
+\c@origlanguage=\count498
+\c@savedoriglanguage=\count499
+\c@pageref=\count500
+\c@savedpageref=\count501
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count502
+\c@textcitetotal=\count503
+\c@textcitemaxnames=\count504
+\c@biburlbigbreakpenalty=\count505
+\c@biburlbreakpenalty=\count506
+\c@biburlnumpenalty=\count507
+\c@biburlucpenalty=\count508
+\c@biburllcpenalty=\count509
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count510
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count511
+\c@bbx:relatedtotal=\count512
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 46.
+\@quotelevel=\count513
+\@quotereset=\count514
+ (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count515
+\scratchdimen=\dimen325
+\scratchbox=\box82
+\nofMPsegments=\count516
+\nofMParguments=\count517
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count518
+\MPscratchDim=\dimen326
+\MPnumerator=\count519
+\makeMPintoPDFobject=\count520
+\everyMPtoPDFconversion=\toks46
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 46.
+
+(./main.out) (./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 46.
+LaTeX Info: Redefining \microtypecontext on input line 46.
+Package microtype Info: Applying patch `item' on input line 46.
+Package microtype Info: Applying patch `toc' on input line 46.
+Package microtype Info: Applying patch `eqnum' on input line 46.
+Package microtype Info: Applying patch `footnote' on input line 46.
+Package microtype Info: Applying patch `verbatim' on input line 46.
+LaTeX Info: Redefining \microtypesetup on input line 46.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
+utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
+luatex=false on input line 46.
+
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
+mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
+ input line 46.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./main.toc)
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2{/usr
+/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] 
+[4] [5] [6]
+<Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png, id=2
+16, 510.85857pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 366.
+(pdftex.def)             Requested size: 217.42265pt x 190.70583pt.
+<Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=218, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 371.
+(pdftex.def)             Requested size: 217.42265pt x 190.02895pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png, id=219, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map
+.png  used on input line 382.
+(pdftex.def)             Requested size: 217.42265pt x 189.03075pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png, id=220, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_m
+ap.png  used on input line 387.
+(pdftex.def)             Requested size: 217.42265pt x 188.36755pt.
+<Figures/WireMod2D/summary/YZQ_26Aug2026_2d_ratio_spline_summary.png, id=222, 9
+83.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/YZQ_26Aug2026_2d_ratio_spline_summary.png Graph
+ic file (type png)
+<use Figures/WireMod2D/summary/YZQ_26Aug2026_2d_ratio_spline_summary.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/YZQ_26Aug2026_2d_ratio_splin
+e_summary.png  used on input line 402.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+ [7 <./Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png
+> <./Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png
+> <./Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png> <./Figures/Wir
+eMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png>]
+<Figures/WireMod2D/summary/YZW_26Aug2026_2d_ratio_spline_summary.png, id=234, 9
+83.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/YZW_26Aug2026_2d_ratio_spline_summary.png Graph
+ic file (type png)
+<use Figures/WireMod2D/summary/YZW_26Aug2026_2d_ratio_spline_summary.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/YZW_26Aug2026_2d_ratio_splin
+e_summary.png  used on input line 409.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+<Figures/WireMod2D/summary/XTXZQ_26Aug2026_2d_ratio_spline_summary.png, id=235,
+ 983.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/XTXZQ_26Aug2026_2d_ratio_spline_summary.png Gra
+phic file (type png)
+<use Figures/WireMod2D/summary/XTXZQ_26Aug2026_2d_ratio_spline_summary.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/XTXZQ_26Aug2026_2d_ratio_spl
+ine_summary.png  used on input line 416.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+ [8 <./Figures/WireMod2D/summary/YZQ_26Aug2026_2d_ratio_spline_summary.png> <./
+Figures/WireMod2D/summary/YZW_26Aug2026_2d_ratio_spline_summary.png>]
+<Figures/WireMod2D/summary/XTXZW_26Aug2026_2d_ratio_spline_summary.png, id=244,
+ 983.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/XTXZW_26Aug2026_2d_ratio_spline_summary.png Gra
+phic file (type png)
+<use Figures/WireMod2D/summary/XTXZW_26Aug2026_2d_ratio_spline_summary.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/XTXZW_26Aug2026_2d_ratio_spl
+ine_summary.png  used on input line 423.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+<Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d_ratio_spline_summary.pn
+g, id=245, 983.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d_ratio_spline_summa
+ry.png Graphic file (type png)
+<use Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d_ratio_spline_summar
+y.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d
+_ratio_spline_summary.png  used on input line 432.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+ [9 <./Figures/WireMod2D/summary/XTXZQ_26Aug2026_2d_ratio_spline_summary.png> <
+./Figures/WireMod2D/summary/XTXZW_26Aug2026_2d_ratio_spline_summary.png>]
+<Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d_ratio_spline_summary.pn
+g, id=254, 983.675pt x 600.644pt>
+File: Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d_ratio_spline_summa
+ry.png Graphic file (type png)
+<use Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d_ratio_spline_summar
+y.png>
+Package pdftex.def Info: Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d
+_ratio_spline_summary.png  used on input line 439.
+(pdftex.def)             Requested size: 430.31812pt x 262.7536pt.
+
+Overfull \hbox (0.58113pt too wide) in paragraph at lines 448--450
+[]\OT1/cmr/m/n/10 (-20) The higher-dimensional work-flow keeps the an-gu-lar de
+-pen-dence by first par-ti-tion-ing the two-dimensional
+ []
+
+[10 <./Figures/WireMod2D/summary/XTXZQ_26Aug2026_symmetric_2d_ratio_spline_summ
+ary.png> <./Figures/WireMod2D/summary/XTXZW_26Aug2026_symmetric_2d_ratio_spline
+_summary.png>]
+<Figures/WireModAngles/hTrack0_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=264, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack0_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack0_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack0_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 475.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+<Figures/WireModAngles/hTrack1_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=265, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack1_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack1_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack1_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 480.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+<Figures/WireModAngles/hTrack2_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=266, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack2_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack2_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack2_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 485.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+<Figures/WireModAngles/hTrack3_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=267, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack3_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack3_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack3_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 490.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+<Figures/WireModAngles/hTrack4_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=268, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack4_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack4_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack4_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 495.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+<Figures/WireModAngles/hTrack5_angles_2d_counts_folded_abs_priority60_wiremod_b
+ins.png, id=269, 541.17476pt x 430.21906pt>
+File: Figures/WireModAngles/hTrack5_angles_2d_counts_folded_abs_priority60_wire
+mod_bins.png Graphic file (type png)
+<use Figures/WireModAngles/hTrack5_angles_2d_counts_folded_abs_priority60_wirem
+od_bins.png>
+Package pdftex.def Info: Figures/WireModAngles/hTrack5_angles_2d_counts_folded_
+abs_priority60_wiremod_bins.png  used on input line 500.
+(pdftex.def)             Requested size: 140.41893pt x 111.62454pt.
+ [11 <./Figures/WireModAngles/hTrack0_angles_2d_counts_folded_abs_priority60_wi
+remod_bins.png> <./Figures/WireModAngles/hTrack1_angles_2d_counts_folded_abs_pr
+iority60_wiremod_bins.png> <./Figures/WireModAngles/hTrack2_angles_2d_counts_fo
+lded_abs_priority60_wiremod_bins.png> <./Figures/WireModAngles/hTrack3_angles_2
+d_counts_folded_abs_priority60_wiremod_bins.png> <./Figures/WireModAngles/hTrac
+k4_angles_2d_counts_folded_abs_priority60_wiremod_bins.png> <./Figures/WireModA
+ngles/hTrack5_angles_2d_counts_folded_abs_priority60_wiremod_bins.png>]
+<Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_re
+gions_by_x_xbin001_adaptive_yz.png, id=290, 501.37312pt x 448.074pt>
+File: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_
+yz_regions_by_x_xbin001_adaptive_yz.png Graphic file (type png)
+<use Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_y
+z_regions_by_x_xbin001_adaptive_yz.png>
+Package pdftex.def Info: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_
+region001_adaptive_yz_regions_by_x_xbin001_adaptive_yz.png  used on input line 
+571.
+(pdftex.def)             Requested size: 108.71478pt x 97.15446pt.
+<Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_re
+gions_by_x_xbin002_adaptive_yz.png, id=291, 501.37312pt x 448.074pt>
+File: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_
+yz_regions_by_x_xbin002_adaptive_yz.png Graphic file (type png)
+<use Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_y
+z_regions_by_x_xbin002_adaptive_yz.png>
+Package pdftex.def Info: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_
+region001_adaptive_yz_regions_by_x_xbin002_adaptive_yz.png  used on input line 
+576.
+(pdftex.def)             Requested size: 108.71478pt x 97.15446pt.
+<Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_re
+gions_by_x_xbin003_adaptive_yz.png, id=292, 501.37312pt x 448.074pt>
+File: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_
+yz_regions_by_x_xbin003_adaptive_yz.png Graphic file (type png)
+<use Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_y
+z_regions_by_x_xbin003_adaptive_yz.png>
+Package pdftex.def Info: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_
+region001_adaptive_yz_regions_by_x_xbin003_adaptive_yz.png  used on input line 
+581.
+(pdftex.def)             Requested size: 108.71478pt x 97.15446pt.
+<Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz_re
+gions_by_x_xbin004_adaptive_yz.png, id=293, 501.37312pt x 448.074pt>
+File: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_
+yz_regions_by_x_xbin004_adaptive_yz.png Graphic file (type png)
+<use Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_y
+z_regions_by_x_xbin004_adaptive_yz.png>
+Package pdftex.def Info: Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_
+region001_adaptive_yz_regions_by_x_xbin004_adaptive_yz.png  used on input line 
+586.
+(pdftex.def)             Requested size: 108.71478pt x 97.15446pt.
+ [12]
+<Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.png, id=298, 505.89pt x 44
+8.074pt>
+File: Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.png Graphic file (typ
+e png)
+<use Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.png>
+Package pdftex.def Info: Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.pn
+g  used on input line 597.
+(pdftex.def)             Requested size: 140.41893pt x 124.37276pt.
+<Figures/WireModXYZ/ratios/dq/hHit0_xbin001_ratio_map.png, id=299, 505.89pt x 4
+48.074pt>
+File: Figures/WireModXYZ/ratios/dq/hHit0_xbin001_ratio_map.png Graphic file (ty
+pe png)
+<use Figures/WireModXYZ/ratios/dq/hHit0_xbin001_ratio_map.png>
+Package pdftex.def Info: Figures/WireModXYZ/ratios/dq/hHit0_xbin001_ratio_map.p
+ng  used on input line 602.
+(pdftex.def)             Requested size: 140.41893pt x 124.37276pt.
+<Figures/WireModXYZ/ratios/w/hHit0_xbin001_ratio_map.png, id=300, 512.21362pt x
+ 448.074pt>
+File: Figures/WireModXYZ/ratios/w/hHit0_xbin001_ratio_map.png Graphic file (typ
+e png)
+<use Figures/WireModXYZ/ratios/w/hHit0_xbin001_ratio_map.png>
+Package pdftex.def Info: Figures/WireModXYZ/ratios/w/hHit0_xbin001_ratio_map.pn
+g  used on input line 607.
+(pdftex.def)             Requested size: 140.41893pt x 122.83443pt.
+
+
+LaTeX Warning: Empty bibliography on input line 616.
+
+[13 <./Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive
+_yz_regions_by_x_xbin001_adaptive_yz.png> <./Figures/WireModXYZ/adaptive/hTrack
+0_anglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin002_adaptive_yz.png>
+ <./Figures/WireModXYZ/adaptive/hTrack0_anglebin_q_plane0_region001_adaptive_yz
+_regions_by_x_xbin003_adaptive_yz.png> <./Figures/WireModXYZ/adaptive/hTrack0_a
+nglebin_q_plane0_region001_adaptive_yz_regions_by_x_xbin004_adaptive_yz.png> <.
+/Figures/WireModXYZ/ratios/q/hHit0_xbin001_ratio_map.png> <./Figures/WireModXYZ
+/ratios/dq/hHit0_xbin001_ratio_map.png> <./Figures/WireModXYZ/ratios/w/hHit0_xb
+in001_ratio_map.png>]
+File: Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack0_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 630.
+(pdftex.def)             Requested size: 140.41893pt x 123.16261pt.
+<Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adaptive_2d_regions.png, id=3
+16, 510.85857pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 631.
+(pdftex.def)             Requested size: 140.41893pt x 123.16261pt.
+<Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adaptive_2d_regions.png, id=3
+17, 510.85857pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 632.
+(pdftex.def)             Requested size: 140.41893pt x 123.16261pt.
+<Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adaptive_2d_regions.png, id=3
+18, 528.02269pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 633.
+(pdftex.def)             Requested size: 140.41893pt x 119.1561pt.
+<Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adaptive_2d_regions.png, id=3
+19, 528.02269pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 634.
+(pdftex.def)             Requested size: 140.41893pt x 119.1561pt.
+<Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adaptive_2d_regions.png, id=3
+20, 528.02269pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adaptive_2d_regions.png 
+Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adaptive_2d_regions.png>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adapt
+ive_2d_regions.png  used on input line 635.
+(pdftex.def)             Requested size: 140.41893pt x 119.1561pt.
+File: Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack0_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 641.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+<Figures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=321, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 642.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+<Figures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=322, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 643.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+<Figures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=323, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 644.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+<Figures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=324, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 645.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+<Figures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_adaptive_2d_regions.png, id
+=325, 512.66531pt x 448.074pt>
+File: Figures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_adaptive_2d_regions.pn
+g Graphic file (type png)
+<use Figures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_adaptive_2d_regions.png
+>
+Package pdftex.def Info: Figures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_ada
+ptive_2d_regions.png  used on input line 646.
+(pdftex.def)             Requested size: 140.41893pt x 122.72504pt.
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit0_ratio_map
+.png  used on input line 654.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map.png, id=326, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map
+.png  used on input line 655.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map.png, id=327, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map
+.png  used on input line 656.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit3_ratio_map.png, id=328, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit3_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit3_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit3_ratio_map
+.png  used on input line 657.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit4_ratio_map.png, id=329, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit4_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit4_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit4_ratio_map
+.png  used on input line 658.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+<Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map.png, id=330, 515.37544p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map
+.png  used on input line 659.
+(pdftex.def)             Requested size: 140.41893pt x 122.08235pt.
+ [14 <./Figures/WireMod2D/adaptive/hTrack1_YZQ_26Aug2026_adaptive_2d_regions.pn
+g> <./Figures/WireMod2D/adaptive/hTrack2_YZQ_26Aug2026_adaptive_2d_regions.png>
+ <./Figures/WireMod2D/adaptive/hTrack3_YZQ_26Aug2026_adaptive_2d_regions.png> <
+./Figures/WireMod2D/adaptive/hTrack4_YZQ_26Aug2026_adaptive_2d_regions.png> <./
+Figures/WireMod2D/adaptive/hTrack5_YZQ_26Aug2026_adaptive_2d_regions.png> <./Fi
+gures/WireMod2D/adaptive/hTrack1_XTXZQ_26Aug2026_adaptive_2d_regions.png> <./Fi
+gures/WireMod2D/adaptive/hTrack2_XTXZQ_26Aug2026_adaptive_2d_regions.png> <./Fi
+gures/WireMod2D/adaptive/hTrack3_XTXZQ_26Aug2026_adaptive_2d_regions.png> <./Fi
+gures/WireMod2D/adaptive/hTrack4_XTXZQ_26Aug2026_adaptive_2d_regions.png> <./Fi
+gures/WireMod2D/adaptive/hTrack5_XTXZQ_26Aug2026_adaptive_2d_regions.png>]
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map.png, id=347, 528.47438p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map
+.png  used on input line 665.
+(pdftex.def)             Requested size: 140.41893pt x 119.05354pt.
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map.png, id=348, 521.69907p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map
+.png  used on input line 666.
+(pdftex.def)             Requested size: 140.41893pt x 120.59871pt.
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit2_ratio_map.png, id=349, 521.69907p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit2_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit2_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit2_ratio_map
+.png  used on input line 667.
+(pdftex.def)             Requested size: 140.41893pt x 120.59871pt.
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit3_ratio_map.png, id=350, 528.47438p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit3_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit3_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit3_ratio_map
+.png  used on input line 668.
+(pdftex.def)             Requested size: 140.41893pt x 119.05354pt.
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map.png, id=351, 521.69907p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map
+.png  used on input line 669.
+(pdftex.def)             Requested size: 140.41893pt x 120.59871pt.
+<Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map.png, id=352, 521.69907p
+t x 448.074pt>
+File: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map.png Graphic file (
+type png)
+<use Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map
+.png  used on input line 670.
+(pdftex.def)             Requested size: 140.41893pt x 120.59871pt.
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit0_ratio_m
+ap.png  used on input line 676.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_map.png, id=353, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_m
+ap.png  used on input line 677.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_map.png, id=354, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_m
+ap.png  used on input line 678.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit3_ratio_map.png, id=355, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit3_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit3_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit3_ratio_m
+ap.png  used on input line 679.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit4_ratio_map.png, id=356, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit4_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit4_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit4_ratio_m
+ap.png  used on input line 680.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_ratio_map.png, id=357, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_ratio_m
+ap.png  used on input line 681.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+ [15 <./Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit1_ratio_map.png> <./Figures/
+WireMod2D/ratios/YZQ_26Aug2026/hHit2_ratio_map.png> <./Figures/WireMod2D/ratios
+/YZQ_26Aug2026/hHit3_ratio_map.png> <./Figures/WireMod2D/ratios/YZQ_26Aug2026/h
+Hit4_ratio_map.png> <./Figures/WireMod2D/ratios/YZQ_26Aug2026/hHit5_ratio_map.p
+ng> <./Figures/WireMod2D/ratios/YZW_26Aug2026/hHit0_ratio_map.png> <./Figures/W
+ireMod2D/ratios/YZW_26Aug2026/hHit1_ratio_map.png> <./Figures/WireMod2D/ratios/
+YZW_26Aug2026/hHit2_ratio_map.png> <./Figures/WireMod2D/ratios/YZW_26Aug2026/hH
+it3_ratio_map.png> <./Figures/WireMod2D/ratios/YZW_26Aug2026/hHit4_ratio_map.pn
+g> <./Figures/WireMod2D/ratios/YZW_26Aug2026/hHit5_ratio_map.png>]
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_map.png, id=376, 523.9575
+pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_m
+ap.png  used on input line 687.
+(pdftex.def)             Requested size: 140.41893pt x 120.0791pt.
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_map.png, id=377, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_m
+ap.png  used on input line 688.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_map.png, id=378, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_m
+ap.png  used on input line 689.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit3_ratio_map.png, id=379, 523.9575
+pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit3_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit3_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit3_ratio_m
+ap.png  used on input line 690.
+(pdftex.def)             Requested size: 140.41893pt x 120.0791pt.
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit4_ratio_map.png, id=380, 523.9575
+pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit4_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit4_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit4_ratio_m
+ap.png  used on input line 691.
+(pdftex.def)             Requested size: 140.41893pt x 120.0791pt.
+<Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_map.png, id=381, 517.1821
+9pt x 448.074pt>
+File: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_map.png Graphic file
+ (type png)
+<use Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_map.png>
+Package pdftex.def Info: Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_m
+ap.png  used on input line 692.
+(pdftex.def)             Requested size: 140.41893pt x 121.65161pt.
+ [16 <./Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit1_ratio_map.png> <./Figure
+s/WireMod2D/ratios/XTXZQ_26Aug2026/hHit2_ratio_map.png> <./Figures/WireMod2D/ra
+tios/XTXZQ_26Aug2026/hHit3_ratio_map.png> <./Figures/WireMod2D/ratios/XTXZQ_26A
+ug2026/hHit4_ratio_map.png> <./Figures/WireMod2D/ratios/XTXZQ_26Aug2026/hHit5_r
+atio_map.png> <./Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit0_ratio_map.png> 
+<./Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit1_ratio_map.png> <./Figures/Wir
+eMod2D/ratios/XTXZW_26Aug2026/hHit2_ratio_map.png> <./Figures/WireMod2D/ratios/
+XTXZW_26Aug2026/hHit3_ratio_map.png> <./Figures/WireMod2D/ratios/XTXZW_26Aug202
+6/hHit4_ratio_map.png> <./Figures/WireMod2D/ratios/XTXZW_26Aug2026/hHit5_ratio_
+map.png>] (./xyz_spline_appendix.tex [17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region001_xyz_ratio_spline
+_summary_linear.pdf, id=403, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region001_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region001_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion001_xyz_ratio_spline_summary_linear.pdf  used on input line 8.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+[18
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region001_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region002_xyz_ratio_spline
+_summary_linear.pdf, id=499, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region002_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region002_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion002_xyz_ratio_spline_summary_linear.pdf  used on input line 16.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [19
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region002_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region003_xyz_ratio_spline
+_summary_linear.pdf, id=596, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region003_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region003_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion003_xyz_ratio_spline_summary_linear.pdf  used on input line 24.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [20
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region003_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region004_xyz_ratio_spline
+_summary_linear.pdf, id=692, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region004_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region004_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion004_xyz_ratio_spline_summary_linear.pdf  used on input line 32.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [21
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region004_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region005_xyz_ratio_spline
+_summary_linear.pdf, id=789, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region005_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region005_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion005_xyz_ratio_spline_summary_linear.pdf  used on input line 40.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [22
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region005_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region006_xyz_ratio_spline
+_summary_linear.pdf, id=885, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region006_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region006_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion006_xyz_ratio_spline_summary_linear.pdf  used on input line 48.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [23
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region006_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region007_xyz_ratio_spline
+_summary_linear.pdf, id=981, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region007_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region007_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion007_xyz_ratio_spline_summary_linear.pdf  used on input line 56.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [24
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region007_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region008_xyz_ratio_spline
+_summary_linear.pdf, id=1078, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region008_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region008_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion008_xyz_ratio_spline_summary_linear.pdf  used on input line 64.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [25
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region008_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region009_xyz_ratio_spline
+_summary_linear.pdf, id=1175, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region009_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region009_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion009_xyz_ratio_spline_summary_linear.pdf  used on input line 72.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [26
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region009_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region010_xyz_ratio_spline
+_summary_linear.pdf, id=1271, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region010_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region010_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion010_xyz_ratio_spline_summary_linear.pdf  used on input line 80.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [27
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region010_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region011_xyz_ratio_spline
+_summary_linear.pdf, id=1367, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region011_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region011_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion011_xyz_ratio_spline_summary_linear.pdf  used on input line 88.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [28
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region011_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region012_xyz_ratio_spline
+_summary_linear.pdf, id=1464, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region012_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region012_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion012_xyz_ratio_spline_summary_linear.pdf  used on input line 96.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [29
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region012_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region013_xyz_ratio_spline
+_summary_linear.pdf, id=1560, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region013_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region013_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion013_xyz_ratio_spline_summary_linear.pdf  used on input line 104.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [30
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region013_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region014_xyz_ratio_spline
+_summary_linear.pdf, id=1656, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region014_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region014_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion014_xyz_ratio_spline_summary_linear.pdf  used on input line 112.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [31
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region014_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region015_xyz_ratio_spline
+_summary_linear.pdf, id=1754, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region015_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region015_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion015_xyz_ratio_spline_summary_linear.pdf  used on input line 120.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[32
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region015_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region016_xyz_ratio_spline
+_summary_linear.pdf, id=1850, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region016_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region016_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion016_xyz_ratio_spline_summary_linear.pdf  used on input line 128.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [33
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region016_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region017_xyz_ratio_spline
+_summary_linear.pdf, id=1946, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region017_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region017_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion017_xyz_ratio_spline_summary_linear.pdf  used on input line 136.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [34
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region017_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region018_xyz_ratio_spline
+_summary_linear.pdf, id=2042, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region018_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region018_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion018_xyz_ratio_spline_summary_linear.pdf  used on input line 144.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [35
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region018_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region019_xyz_ratio_spline
+_summary_linear.pdf, id=2139, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region019_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region019_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion019_xyz_ratio_spline_summary_linear.pdf  used on input line 152.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [36
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region019_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region020_xyz_ratio_spline
+_summary_linear.pdf, id=2235, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region020_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region020_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion020_xyz_ratio_spline_summary_linear.pdf  used on input line 160.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [37
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region020_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region021_xyz_ratio_spline
+_summary_linear.pdf, id=2332, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region021_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region021_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion021_xyz_ratio_spline_summary_linear.pdf  used on input line 168.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [38
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region021_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region022_xyz_ratio_spline
+_summary_linear.pdf, id=2429, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region022_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region022_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion022_xyz_ratio_spline_summary_linear.pdf  used on input line 176.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [39
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region022_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region023_xyz_ratio_spline
+_summary_linear.pdf, id=2525, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region023_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region023_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion023_xyz_ratio_spline_summary_linear.pdf  used on input line 184.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [40
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region023_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region024_xyz_ratio_spline
+_summary_linear.pdf, id=2621, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region024_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region024_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion024_xyz_ratio_spline_summary_linear.pdf  used on input line 192.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [41
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region024_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region025_xyz_ratio_spline
+_summary_linear.pdf, id=2717, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region025_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region025_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion025_xyz_ratio_spline_summary_linear.pdf  used on input line 200.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [42
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region025_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region026_xyz_ratio_spline
+_summary_linear.pdf, id=2814, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region026_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region026_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion026_xyz_ratio_spline_summary_linear.pdf  used on input line 208.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [43
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region026_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region027_xyz_ratio_spline
+_summary_linear.pdf, id=2911, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region027_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region027_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_re
+gion027_xyz_ratio_spline_summary_linear.pdf  used on input line 216.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+) (./xyz_spline_appendix_dq.tex [44
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region027_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region001_xyz_ratio_splin
+e_summary_linear.pdf, id=3007, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region001_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region001_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion001_xyz_ratio_spline_summary_linear.pdf  used on input line 6.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[45
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region001_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region002_xyz_ratio_splin
+e_summary_linear.pdf, id=3103, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region002_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region002_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion002_xyz_ratio_spline_summary_linear.pdf  used on input line 14.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [46
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region002_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region003_xyz_ratio_splin
+e_summary_linear.pdf, id=3200, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region003_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region003_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion003_xyz_ratio_spline_summary_linear.pdf  used on input line 22.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [47
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region003_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region004_xyz_ratio_splin
+e_summary_linear.pdf, id=3296, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region004_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region004_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion004_xyz_ratio_spline_summary_linear.pdf  used on input line 30.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [48
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region004_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region005_xyz_ratio_splin
+e_summary_linear.pdf, id=3392, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region005_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region005_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion005_xyz_ratio_spline_summary_linear.pdf  used on input line 38.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [49
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region005_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region006_xyz_ratio_splin
+e_summary_linear.pdf, id=3490, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region006_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region006_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion006_xyz_ratio_spline_summary_linear.pdf  used on input line 46.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [50
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region006_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region007_xyz_ratio_splin
+e_summary_linear.pdf, id=3586, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region007_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region007_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion007_xyz_ratio_spline_summary_linear.pdf  used on input line 54.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [51
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region007_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region008_xyz_ratio_splin
+e_summary_linear.pdf, id=3682, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region008_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region008_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion008_xyz_ratio_spline_summary_linear.pdf  used on input line 62.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [52
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region008_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region009_xyz_ratio_splin
+e_summary_linear.pdf, id=3778, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region009_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region009_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion009_xyz_ratio_spline_summary_linear.pdf  used on input line 70.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[53
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region009_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region010_xyz_ratio_splin
+e_summary_linear.pdf, id=3875, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region010_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region010_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion010_xyz_ratio_spline_summary_linear.pdf  used on input line 78.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [54
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region010_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region011_xyz_ratio_splin
+e_summary_linear.pdf, id=3971, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region011_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region011_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion011_xyz_ratio_spline_summary_linear.pdf  used on input line 86.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [55
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region011_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region012_xyz_ratio_splin
+e_summary_linear.pdf, id=4068, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region012_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region012_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion012_xyz_ratio_spline_summary_linear.pdf  used on input line 94.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [56
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region012_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region013_xyz_ratio_splin
+e_summary_linear.pdf, id=4165, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region013_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region013_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion013_xyz_ratio_spline_summary_linear.pdf  used on input line 102.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [57
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region013_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region014_xyz_ratio_splin
+e_summary_linear.pdf, id=4261, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region014_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region014_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion014_xyz_ratio_spline_summary_linear.pdf  used on input line 110.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [58
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region014_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region015_xyz_ratio_splin
+e_summary_linear.pdf, id=4357, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region015_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region015_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion015_xyz_ratio_spline_summary_linear.pdf  used on input line 118.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [59
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region015_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region016_xyz_ratio_splin
+e_summary_linear.pdf, id=4453, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region016_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region016_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion016_xyz_ratio_spline_summary_linear.pdf  used on input line 126.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [60
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region016_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region017_xyz_ratio_splin
+e_summary_linear.pdf, id=4550, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region017_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region017_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion017_xyz_ratio_spline_summary_linear.pdf  used on input line 134.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[61
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region017_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region018_xyz_ratio_splin
+e_summary_linear.pdf, id=4647, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region018_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region018_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion018_xyz_ratio_spline_summary_linear.pdf  used on input line 142.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [62
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region018_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region019_xyz_ratio_splin
+e_summary_linear.pdf, id=4743, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region019_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region019_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion019_xyz_ratio_spline_summary_linear.pdf  used on input line 150.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [63
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region019_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region020_xyz_ratio_splin
+e_summary_linear.pdf, id=4840, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region020_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region020_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion020_xyz_ratio_spline_summary_linear.pdf  used on input line 158.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [64
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region020_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region021_xyz_ratio_splin
+e_summary_linear.pdf, id=4936, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region021_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region021_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion021_xyz_ratio_spline_summary_linear.pdf  used on input line 166.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [65
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region021_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region022_xyz_ratio_splin
+e_summary_linear.pdf, id=5032, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region022_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region022_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion022_xyz_ratio_spline_summary_linear.pdf  used on input line 174.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [66
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region022_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region023_xyz_ratio_splin
+e_summary_linear.pdf, id=5128, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region023_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region023_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion023_xyz_ratio_spline_summary_linear.pdf  used on input line 182.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [67
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region023_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region024_xyz_ratio_splin
+e_summary_linear.pdf, id=5226, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region024_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region024_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion024_xyz_ratio_spline_summary_linear.pdf  used on input line 190.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [68
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region024_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region025_xyz_ratio_splin
+e_summary_linear.pdf, id=5322, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region025_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region025_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion025_xyz_ratio_spline_summary_linear.pdf  used on input line 198.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[69
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region025_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region026_xyz_ratio_splin
+e_summary_linear.pdf, id=5418, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region026_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region026_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion026_xyz_ratio_spline_summary_linear.pdf  used on input line 206.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [70
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region026_xyz_ratio_sp
+line_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region027_xyz_ratio_splin
+e_summary_linear.pdf, id=5514, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region027_xyz_ratio_
+spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region027_xyz_ratio_s
+pline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_r
+egion027_xyz_ratio_spline_summary_linear.pdf  used on input line 214.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+)
+(./xyz_spline_appendix_q_over_dq.tex [71
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_dq_plane0_region027_xyz_ratio_sp
+line_summary_linear.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region001_xyz_rati
+o_spline_summary_linear.pdf, id=5611, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region001_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region001_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region001_xyz_ratio_spline_summary_linear.pdf  used on input line 6.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+[72
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region001_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region002_xyz_rati
+o_spline_summary_linear.pdf, id=5705, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region002_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region002_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region002_xyz_ratio_spline_summary_linear.pdf  used on input line 14.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [73
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region002_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region003_xyz_rati
+o_spline_summary_linear.pdf, id=5800, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region003_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region003_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region003_xyz_ratio_spline_summary_linear.pdf  used on input line 22.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[74
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region003_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region004_xyz_rati
+o_spline_summary_linear.pdf, id=5895, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region004_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region004_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region004_xyz_ratio_spline_summary_linear.pdf  used on input line 30.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [75
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region004_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region005_xyz_rati
+o_spline_summary_linear.pdf, id=5989, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region005_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region005_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region005_xyz_ratio_spline_summary_linear.pdf  used on input line 38.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[76
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region005_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region006_xyz_rati
+o_spline_summary_linear.pdf, id=6083, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region006_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region006_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region006_xyz_ratio_spline_summary_linear.pdf  used on input line 46.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [77
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region006_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region007_xyz_rati
+o_spline_summary_linear.pdf, id=6177, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region007_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region007_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region007_xyz_ratio_spline_summary_linear.pdf  used on input line 54.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[78
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region007_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region008_xyz_rati
+o_spline_summary_linear.pdf, id=6272, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region008_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region008_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region008_xyz_ratio_spline_summary_linear.pdf  used on input line 62.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [79
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region008_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region009_xyz_rati
+o_spline_summary_linear.pdf, id=6367, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region009_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region009_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region009_xyz_ratio_spline_summary_linear.pdf  used on input line 70.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[80
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region009_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region010_xyz_rati
+o_spline_summary_linear.pdf, id=6461, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region010_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region010_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region010_xyz_ratio_spline_summary_linear.pdf  used on input line 78.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [81
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region010_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region011_xyz_rati
+o_spline_summary_linear.pdf, id=6556, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region011_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region011_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region011_xyz_ratio_spline_summary_linear.pdf  used on input line 86.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[82
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region011_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region012_xyz_rati
+o_spline_summary_linear.pdf, id=6650, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region012_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region012_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region012_xyz_ratio_spline_summary_linear.pdf  used on input line 94.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [83
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region012_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region013_xyz_rati
+o_spline_summary_linear.pdf, id=6744, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region013_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region013_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region013_xyz_ratio_spline_summary_linear.pdf  used on input line 102.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[84
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region013_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region014_xyz_rati
+o_spline_summary_linear.pdf, id=6838, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region014_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region014_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region014_xyz_ratio_spline_summary_linear.pdf  used on input line 110.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [85
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region014_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region015_xyz_rati
+o_spline_summary_linear.pdf, id=6934, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region015_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region015_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region015_xyz_ratio_spline_summary_linear.pdf  used on input line 118.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[86
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region015_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region016_xyz_rati
+o_spline_summary_linear.pdf, id=7028, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region016_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region016_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region016_xyz_ratio_spline_summary_linear.pdf  used on input line 126.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [87
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region016_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region017_xyz_rati
+o_spline_summary_linear.pdf, id=7122, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region017_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region017_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region017_xyz_ratio_spline_summary_linear.pdf  used on input line 134.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[88
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region017_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region018_xyz_rati
+o_spline_summary_linear.pdf, id=7217, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region018_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region018_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region018_xyz_ratio_spline_summary_linear.pdf  used on input line 142.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [89
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region018_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region019_xyz_rati
+o_spline_summary_linear.pdf, id=7311, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region019_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region019_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region019_xyz_ratio_spline_summary_linear.pdf  used on input line 150.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[90
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region019_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region020_xyz_rati
+o_spline_summary_linear.pdf, id=7405, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region020_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region020_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region020_xyz_ratio_spline_summary_linear.pdf  used on input line 158.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [91
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region020_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region021_xyz_rati
+o_spline_summary_linear.pdf, id=7500, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region021_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region021_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region021_xyz_ratio_spline_summary_linear.pdf  used on input line 166.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[92
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region021_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region022_xyz_rati
+o_spline_summary_linear.pdf, id=7595, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region022_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region022_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region022_xyz_ratio_spline_summary_linear.pdf  used on input line 174.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [93
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region022_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region023_xyz_rati
+o_spline_summary_linear.pdf, id=7689, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region023_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region023_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region023_xyz_ratio_spline_summary_linear.pdf  used on input line 182.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[94
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region023_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region024_xyz_rati
+o_spline_summary_linear.pdf, id=7783, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region024_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region024_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region024_xyz_ratio_spline_summary_linear.pdf  used on input line 190.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [95
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region024_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region025_xyz_rati
+o_spline_summary_linear.pdf, id=7878, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region025_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region025_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region025_xyz_ratio_spline_summary_linear.pdf  used on input line 198.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[96
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region025_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region026_xyz_rati
+o_spline_summary_linear.pdf, id=7972, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region026_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region026_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region026_xyz_ratio_spline_summary_linear.pdf  used on input line 206.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [97
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region026_xyz_r
+atio_spline_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_rati
+o_spline_summary_linear.pdf, id=8067, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz
+_ratio_spline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_
+ratio_spline_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_p
+lane0_region027_xyz_ratio_spline_summary_linear.pdf  used on input line 214.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+)
+(./xyz_spline_appendix_plane2_q.tex [98
+
+ <./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_r
+atio_spline_summary_linear.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region001_xyz_ratio_spline
+_summary_linear.pdf, id=8161, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region001_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region001_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion001_xyz_ratio_spline_summary_linear.pdf  used on input line 8.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+[99
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region001_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region002_xyz_ratio_spline
+_summary_linear.pdf, id=8258, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region002_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region002_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion002_xyz_ratio_spline_summary_linear.pdf  used on input line 16.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [100
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region002_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region003_xyz_ratio_spline
+_summary_linear.pdf, id=8354, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region003_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region003_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion003_xyz_ratio_spline_summary_linear.pdf  used on input line 24.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [101
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region003_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region004_xyz_ratio_spline
+_summary_linear.pdf, id=8450, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region004_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region004_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion004_xyz_ratio_spline_summary_linear.pdf  used on input line 32.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [102
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region004_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region005_xyz_ratio_spline
+_summary_linear.pdf, id=8546, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region005_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region005_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion005_xyz_ratio_spline_summary_linear.pdf  used on input line 40.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [103
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region005_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region006_xyz_ratio_spline
+_summary_linear.pdf, id=8644, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region006_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region006_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion006_xyz_ratio_spline_summary_linear.pdf  used on input line 48.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [104
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region006_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region007_xyz_ratio_spline
+_summary_linear.pdf, id=8740, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region007_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region007_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion007_xyz_ratio_spline_summary_linear.pdf  used on input line 56.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [105
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region007_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region008_xyz_ratio_spline
+_summary_linear.pdf, id=8836, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region008_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region008_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion008_xyz_ratio_spline_summary_linear.pdf  used on input line 64.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [106
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region008_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region009_xyz_ratio_spline
+_summary_linear.pdf, id=8933, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region009_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region009_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion009_xyz_ratio_spline_summary_linear.pdf  used on input line 72.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[107
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region009_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region010_xyz_ratio_spline
+_summary_linear.pdf, id=9029, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region010_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region010_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion010_xyz_ratio_spline_summary_linear.pdf  used on input line 80.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [108
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region010_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region011_xyz_ratio_spline
+_summary_linear.pdf, id=9125, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region011_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region011_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion011_xyz_ratio_spline_summary_linear.pdf  used on input line 88.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [109
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region011_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region012_xyz_ratio_spline
+_summary_linear.pdf, id=9222, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region012_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region012_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion012_xyz_ratio_spline_summary_linear.pdf  used on input line 96.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [110
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region012_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region013_xyz_ratio_spline
+_summary_linear.pdf, id=9319, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region013_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region013_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion013_xyz_ratio_spline_summary_linear.pdf  used on input line 104.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [111
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region013_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region014_xyz_ratio_spline
+_summary_linear.pdf, id=9415, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region014_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region014_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion014_xyz_ratio_spline_summary_linear.pdf  used on input line 112.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [112
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region014_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region015_xyz_ratio_spline
+_summary_linear.pdf, id=9511, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region015_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region015_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion015_xyz_ratio_spline_summary_linear.pdf  used on input line 120.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [113
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region015_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region016_xyz_ratio_spline
+_summary_linear.pdf, id=9608, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region016_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region016_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion016_xyz_ratio_spline_summary_linear.pdf  used on input line 128.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [114
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region016_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region017_xyz_ratio_spline
+_summary_linear.pdf, id=9704, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region017_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region017_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion017_xyz_ratio_spline_summary_linear.pdf  used on input line 136.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[115
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region017_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region018_xyz_ratio_spline
+_summary_linear.pdf, id=9801, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region018_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region018_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion018_xyz_ratio_spline_summary_linear.pdf  used on input line 144.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [116
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region018_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region019_xyz_ratio_spline
+_summary_linear.pdf, id=9897, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region019_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region019_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion019_xyz_ratio_spline_summary_linear.pdf  used on input line 152.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [117
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region019_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region020_xyz_ratio_spline
+_summary_linear.pdf, id=9994, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region020_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region020_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion020_xyz_ratio_spline_summary_linear.pdf  used on input line 160.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [118
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region020_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region021_xyz_ratio_spline
+_summary_linear.pdf, id=10090, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region021_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region021_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion021_xyz_ratio_spline_summary_linear.pdf  used on input line 168.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [119
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region021_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region022_xyz_ratio_spline
+_summary_linear.pdf, id=10186, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region022_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region022_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion022_xyz_ratio_spline_summary_linear.pdf  used on input line 176.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [120
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region022_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region023_xyz_ratio_spline
+_summary_linear.pdf, id=10283, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region023_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region023_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion023_xyz_ratio_spline_summary_linear.pdf  used on input line 184.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [121
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region023_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region024_xyz_ratio_spline
+_summary_linear.pdf, id=10380, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region024_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region024_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion024_xyz_ratio_spline_summary_linear.pdf  used on input line 192.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [122
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region024_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region025_xyz_ratio_spline
+_summary_linear.pdf, id=10476, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region025_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region025_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion025_xyz_ratio_spline_summary_linear.pdf  used on input line 200.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+
+[123
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region025_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region026_xyz_ratio_spline
+_summary_linear.pdf, id=10572, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region026_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region026_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion026_xyz_ratio_spline_summary_linear.pdf  used on input line 208.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+ [124
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region026_xyz_ratio_spl
+ine_summary_linear.pdf>]
+<Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region027_xyz_ratio_spline
+_summary_linear.pdf, id=10669, 730.9043pt x 944.3275pt>
+File: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region027_xyz_ratio_s
+pline_summary_linear.pdf Graphic file (type pdf)
+<use Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region027_xyz_ratio_sp
+line_summary_linear.pdf>
+Package pdftex.def Info: Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_re
+gion027_xyz_ratio_spline_summary_linear.pdf  used on input line 216.
+(pdftex.def)             Requested size: 433.7503pt x 560.40489pt.
+) [125
+
+ <./Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region027_xyz_ratio_spl
+ine_summary_linear.pdf>] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 873433B26A2913649D27BA880E7657E1;5056.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 44350 strings out of 467525
+ 1039117 string characters out of 5418982
+ 1793411 words of memory out of 5000000
+ 72311 multiletter control sequences out of 15000+600000
+ 638574 words of font info for 125 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 98i,8n,108p,1028b,1233s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/20
+26/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2026/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (125 pages, 11932726 bytes).
+PDF statistics:
+ 10905 PDF objects out of 12825 (max. 8388607)
+ 3418 compressed objects within 35 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 30764 words of extra memory for PDF output out of 35830 (max. 10000000)
+
