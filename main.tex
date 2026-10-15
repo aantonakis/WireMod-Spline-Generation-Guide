@@ -75,19 +75,19 @@ To produce WireMod splines for SBND, we split the task into two main parts:
     \item Extract the data/mc MPV ratios for the hit response variables as a function of the spatial and angular dimensions. We partition the spatial and angular components of the multi-dimensional histograms from step 1 to achieve sufficient track statistics for the MPV extraction. The hit response ratios as a function of the spatial and angular binning define the WireMod splines. These splines typically constitute a family of 2D ratio splines that can leverage interpolation functionaliy from packages such as ROOT.
 \end{enumerate}
 
-The spline generation workflow is currently split across two repositories:
+The spline generation workflow can be found here:
 \begin{itemize}
     \item \texttt{SBNDWireModSplineGeneration}: Python workflow scripts, ROOT output files, CSV summaries, and diagnostic plots.
     \begin{itemize}
         \item URL: \href{https://github.com/aantonakis/SBNDWireModSplineGeneration}{https://github.com/aantonakis/SBNDWireModSplineGeneration}
     \end{itemize}
-    \item \texttt{WireMod-Spline-Generation-Guide}: this documentation project.
-    \begin{itemize}
-        \item URL: \href{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}
-    \end{itemize}
+    %\item \texttt{WireMod-Spline-Generation-Guide}: this documentation project.
+    %\begin{itemize}
+     %   \item URL: \href{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}{https://github.com/aantonakis/WireMod-Spline-Generation-Guide}
+    %\end{itemize}
 \end{itemize}
 
-The current 2D workflow uses PyROOT for all ROOT I/O and histogram projections, while Matplotlib is used for diagnostic plots. The ROOT environment is loaded through the wrapper script:
+The current workflow uses PyROOT for all ROOT I/O and histogram projections, while Matplotlib is used for diagnostic plots. The ROOT environment is loaded through the wrapper script:
 \begin{verbatim}
 ./scripts/run_with_root.sh <python script> <options>
 \end{verbatim}
@@ -239,10 +239,10 @@ as a \texttt{TGraph2DErrors}. Here $(a,b)$ denotes the two WireMod dimensions us
 
 \subsection{Input Files}
 
-The Gen2 2D input files are stored in:
-\begin{verbatim}
-/Users/alexanderantonakis/Documents/Codex/2026-06-08/Gen2_2D
-\end{verbatim}
+%The Gen2 2D input files are stored in:
+%\begin{verbatim}
+%/Users/alexanderantonakis/Documents/Codex/2026-06-08/Gen2_2D
+%\end{verbatim}
 Each file contains one \texttt{hTrackN} and one \texttt{hHitN} object for each of the six wire planes. The \texttt{hTrackN} histograms define the binning statistics. The corresponding \texttt{hHitN} histograms provide the hit-response distributions used to extract the data/MC ratio.
 
 \subsection{Adaptive Binning}
