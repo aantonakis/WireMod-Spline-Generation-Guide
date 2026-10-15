@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1791848917.23207 "main.bcf" "main.bbl" "main" 1792019629.51006 0
-  "main.bcf" 1792019629.321 107740 a152086ac43450313b0f277d1aa1fd90 "pdflatex"
+["biber main"] 1791848917.23207 "main.bcf" "main.bbl" "main" 1792042841.91491 0
+  "main.bcf" 1792042841.7353 107740 a152086ac43450313b0f277d1aa1fd90 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1792019623.76517 "main.tex" "main.pdf" "main" 1792019629.51026 0
+["pdflatex"] 1792042836.32019 "main.tex" "main.pdf" "main" 1792042841.91511 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -360,6 +360,7 @@
   "Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region025_xyz_ratio_spline_summary_linear.pdf" 1791848903.54884 55869 788ec12419697d2039ed327b9dd1e75a ""
   "Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region026_xyz_ratio_spline_summary_linear.pdf" 1791848904.96246 59793 c5f8ccdea6a8776ee4bde3cc70c63b36 ""
   "Figures/WireModXYZ/summary/plane0/anglebin_q_plane0_region027_xyz_ratio_spline_summary_linear.pdf" 1791848906.31196 37247 d196f26a3c198aa9ec9dfd8bc4ab6c70 ""
+  "Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf" 1792042830.32044 23638 0d8f4ca1df0b54dd8c6bd1b8906b57e6 ""
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region001_xyz_ratio_spline_summary_linear.pdf" 1792019579.18299 62540 6666c5c4cf9917b1fc5a59ba8428585a ""
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region002_xyz_ratio_spline_summary_linear.pdf" 1792019580.56535 61544 575b77fbabbaa2a0d7f675f5dec30b2c ""
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region003_xyz_ratio_spline_summary_linear.pdf" 1792019581.94823 56874 7065d1af0a4569f44bf01d2afc4bfc0d ""
@@ -387,12 +388,12 @@
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region025_xyz_ratio_spline_summary_linear.pdf" 1792019612.56938 50059 37e33849b71ab888ef67e16f46f7b64f ""
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region026_xyz_ratio_spline_summary_linear.pdf" 1792019613.93599 37242 583db6e5f67ed71e1321e91b3e474e51 ""
   "Figures/WireModXYZ/summary/plane2/anglebin_q_plane2_region027_xyz_ratio_spline_summary_linear.pdf" 1792019615.15204 32195 70e0452fdf58626f14a7a90ab749fbaf ""
-  "main.aux" 1792019629.31722 90193 c788ba14955b517a4ce7d30decaec27b "pdflatex"
+  "main.aux" 1792042841.73149 92135 08528f9e0399948c76212239393c45b0 "pdflatex"
   "main.bbl" 1791848927.59769 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.out" 1792019629.32029 5056 873433b26a2913649d27ba880e7657e1 "pdflatex"
-  "main.run.xml" 1792019629.32153 2332 ad4aa38c1157da5db73722f09610e5bd "pdflatex"
-  "main.tex" 1792019574.65991 40227 2b3b7b83287b6d7965861abbde051ffd ""
-  "main.toc" 1792019629.32159 2654 b341dada7e6e6ee2ce8dbf31e680fd78 "pdflatex"
+  "main.out" 1792042841.73463 5358 45224e5473228d2122c537727a626f44 "pdflatex"
+  "main.run.xml" 1792042841.73577 2332 ad4aa38c1157da5db73722f09610e5bd "pdflatex"
+  "main.tex" 1792042830.36789 41165 b12795560b4040e4e964edf8ee4c5a86 ""
+  "main.toc" 1792042841.73582 2778 9e3f267efd00200db74c1f40a220c10a "pdflatex"
   "xyz_spline_appendix.tex" 1792000973.93655 12924 13cba092e53428928936e509cf075e0c ""
   "xyz_spline_appendix_dq.tex" 1792001023.01091 12728 544067202a8b4837094858243fef6c80 ""
   "xyz_spline_appendix_plane2_q.tex" 1792019615.15422 12930 efd0e4003463432792fb33f1842e2ead ""

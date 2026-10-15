@@ -1098,6 +1098,11 @@ INPUT ./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xy
 INPUT ./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_ratio_spline_summary_linear.pdf
 INPUT ./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_ratio_spline_summary_linear.pdf
 INPUT ./Figures/WireModXYZ/summary/plane0/anglebin_q_over_dq_plane0_region027_xyz_ratio_spline_summary_linear.pdf
+INPUT ./Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf
+INPUT ./Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf
+INPUT ./Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf
+INPUT ./Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf
+INPUT ./Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf
 INPUT ./xyz_spline_appendix_plane2_q.tex
 INPUT ./xyz_spline_appendix_plane2_q.tex
 INPUT xyz_spline_appendix_plane2_q.tex

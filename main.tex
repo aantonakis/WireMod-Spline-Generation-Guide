@@ -738,6 +738,17 @@ with these options:
 \input{xyz_spline_appendix.tex}
 \input{xyz_spline_appendix_dq.tex}
 \input{xyz_spline_appendix_q_over_dq.tex}
+\clearpage
+\subsubsection{Grouped Angular Summary of Spline Agreement}
+\label{sec:plane0_grouped_spline_agreement}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/WireModXYZ/summary/plane0/plane0_q_over_dq_ratio_histograms_grouped.pdf}
+\caption{Plane 0 agreement of the charge and dQ/dx correction splines, expressed as $R_Q/R_{dQ/dx}$ and combined into four angular bands separated at $60^\circ$ in each folded angular coordinate. The red dashed line marks unity. Each distribution pools samples from the same $40\times40$ interpolated YZ grids used in the preceding comparison figures over all populated x-slices. Each group is normalized by its full sample count before restricting the displayed range to 0.9--1.1; values outside this range remain included in the normalization. Samples have equal spatial-grid weight, rather than track-count weight.}
+\label{fig:plane0_grouped_spline_agreement}
+\end{figure}
+
 \input{xyz_spline_appendix_plane2_q.tex}
 
 \end{appendices}
